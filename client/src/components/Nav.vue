@@ -28,6 +28,6 @@
     }
 
     a.router-link-active, a:hover {
-        border-bottom: 2px solid #96179b;
+        border-bottom: 2px solid #c83cb9;
     }
 </style>

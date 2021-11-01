@@ -1,7 +1,7 @@
 <template>
     <div id="about">
         <!-- <Nav /> -->
-        <h2>About</h2>
+        <h2>ABOUT</h2>
         <h3>Personal Information</h3>
         <h4>Get to know more about me</h4>
 
@@ -10,7 +10,7 @@
             <div class="column">
                 <h4>Hello!</h4>
                 <p>
-                    My name is Henry Campbell, and I'm a computer science student at the University of New England majoring in Software Development hoping to become a software engineer. I have particular interest in backend web development, data structures and algorithms, and desktop application development.
+                    My name is Henry Campbell. I'm a Computer Science student at the University of New England majoring in Software Development and hoping to become a Software Engineer. I have particular interest in backend web development, data structures and algorithms, and desktop application development.
                 </p>
                 <p>
                     I’m currently looking to become part of a dedicated team of engineers responsible for building quality software, so if you’re hiring, please feel free to contact me on LinkedIn. 
@@ -30,6 +30,7 @@
                     <li>SQL</li>
                     <li>MongoDB</li>
                     <li>Git</li>
+                    <li>Mac/Windows/Linux</li>
                 </ul>
             </div>
         </div>
@@ -49,6 +50,7 @@ export default {
         color: #c83cb9;
         font-size: 175%;
         padding-top: 10rem;
+        letter-spacing: 3px;
     }
 
     h3 {
@@ -82,6 +84,11 @@ export default {
         background-color: #eee;
         display: inline-block;
         padding: 1% 4%;
+    }
+
+    li:hover {
+        background-color: #c83cb9;
+        color: #fff;
     }
 
     #about {

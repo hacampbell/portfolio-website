@@ -1,8 +1,10 @@
 <template>
     <div id="nav">
         <router-link to="/">HOME</router-link>
-        <router-link to="/about">ABOUT</router-link>
-        <router-link to="/projects">PROJECTS</router-link>
+        <!-- <router-link to="/about">ABOUT</router-link>
+        <router-link to="/projects">PROJECTS</router-link> -->
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
     </div>
 </template>
 

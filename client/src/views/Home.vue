@@ -30,11 +30,17 @@
 
 </script>
 
-<style scoped>
+<style>
 
-    /* #content {
+    #content {
         height: 100vh;
-    } */
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow: hidden;
+    }
 
     section {
         height: 100vh;

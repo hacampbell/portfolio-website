@@ -24,7 +24,7 @@
         margin-right: 3rem;
         color: white;
         text-decoration: none;
-
+        letter-spacing: 2px;
     }
 
     a.router-link-active, a:hover {

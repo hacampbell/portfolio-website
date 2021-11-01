@@ -28,8 +28,9 @@
     .project-item {
         background-color: #fff;
         margin: 5rem 10rem;
-        max-width: 30%;
+        max-width: 90%;
         color: #333;
+        box-shadow: 0 0 2rem rgb(150 150 150 /120)
     }
 
     .project-item img {

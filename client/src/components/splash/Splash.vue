@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
+import Nav from '../generic/Nav.vue'
 
 export default {
   name: 'Splash',

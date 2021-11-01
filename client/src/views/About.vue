@@ -1,14 +1,14 @@
 <template>
-  <About />
+  <Projects />
 </template>
 
 <script>
-    import About from '../components/About.vue';
+    import Projects from '../components/projects/Projects.vue';
 
     export default {
-        name: 'AboutView',
+        name: 'ProjectView',
         components: {
-            About
+            Projects
         }
     }
 

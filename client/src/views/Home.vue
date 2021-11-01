@@ -11,8 +11,8 @@
 </template>
 
 <script>
-    import Splash from '../components/Splash.vue';
-    import About from '../components/About.vue';
+    import Splash from '../components/splash/Splash.vue';
+    import About from '../components/about/About.vue';
 
     export default {
         name: 'Home',

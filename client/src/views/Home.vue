@@ -1,26 +1,39 @@
 <template>
-    <div id="home">
-        <Nav />
-        <h3>— Hi there</h3>
-        <h1>I'm Henry Campbell</h1>
-        <h2>I study Computer Science</h2>
-        <div class="gradient-overlay"></div>
+    <div id="content">
+        <section id="home">
+            <Splash />
+        </section>
+
+        <section id="About">
+            <About />
+        </section>
     </div>
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
+    import Splash from '../components/Splash.vue';
+    import About from '../components/About.vue';
 
-export default {
-  name: 'Home',
-  components: {
-    Nav
-  }
-}
+    export default {
+        name: 'Home',
+        components: {
+            Splash,
+            About
+        }
+    }
+
 </script>
 
 <style scoped>
-    h1 {
+
+    #content {
+        height: 100vh;
+    }
+
+    section {
+        height: 100vh;
+    }
+    /* h1 {
         font-size: 400%;
         text-align: left;
         padding-left: 35%;
@@ -58,10 +71,10 @@ export default {
         height: 100%;
         background: black;
         background-image: linear-gradient(to bottom, rgb(20, 20, 20), rgb(0, 0, 0));
-        opacity: 0.95;
+        opacity: 0.9;
         position: absolute;
         left: 0;
         top: 0;
         z-index: -1;
-    }
+    } */
 </style>

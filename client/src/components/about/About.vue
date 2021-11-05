@@ -55,6 +55,7 @@ export default {
 
     h3 {
         font-size: 200%;
+        font-family: 'Libre Baskerville', serif;
         color: black;
         padding-top: 1rem;
     }

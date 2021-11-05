@@ -30,24 +30,22 @@ export default {
 <style scoped>
     h1 {
         font-size: 400%;
-        text-align: left;
-        padding-left: 35%;
+        text-align: center;
         z-index: 1;
     }
 
     h2 {
         font-size: 300%;
-        text-align: left;
-        padding-left: 35%;
+        text-align: center;
         z-index: 1;
     }
 
     h3 {
         color: #c83cb9;
         padding-top: 20%;
+        padding-right: 35%;
         font-size: 200%;
-        text-align: left;
-        padding-left: 30%;
+        text-align: center;
         z-index: 1;
     }
 

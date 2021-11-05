@@ -31,11 +31,13 @@ export default {
     h1 {
         font-size: 400%;
         text-align: center;
+        font-family: 'Libre Baskerville', serif;
         z-index: 1;
     }
 
     h2 {
         font-size: 300%;
+        font-family: 'Libre Baskerville', serif;
         text-align: center;
         z-index: 1;
     }

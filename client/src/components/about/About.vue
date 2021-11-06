@@ -13,7 +13,7 @@
                     My name is Henry Campbell. I'm a Computer Science student at the University of New England majoring in Software Development in order to become a Software Engineer. I have particular interest in backend web development, data structures and algorithms, and desktop application development.
                 </p>
                 <p>
-                    I’m currently looking to become part of a dedicated team of engineers responsible for building quality software, so if you’re hiring, please feel free to contact me on LinkedIn. 
+                    I’m currently looking to become part of a dedicated team of engineers responsible for building quality software, so if you’re hiring and like my sample work below, please feel free to contact me on LinkedIn. 
                 </p>
             </div>
 

@@ -4,11 +4,11 @@
             <Splash />
         </section>
 
-        <section id="About">
+        <section id="about">
             <About />
         </section>
 
-        <section id="Projects">
+        <section id="projects">
             <Projects />
         </section>
     </div>

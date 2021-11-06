@@ -44,8 +44,8 @@ export default {
 
     h3 {
         color: #c83cb9;
-        padding-top: 20%;
-        padding-right: 35%;
+        margin-top: 20%;
+        margin-right: 35%;
         font-size: 200%;
         text-align: center;
         z-index: 1;

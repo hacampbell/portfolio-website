@@ -77,4 +77,16 @@
         flex: 50%;
     }
 
+        @media only screen and (max-width: 1500px) {
+        .row {
+           display: inline-block;
+           margin-left: 10%;
+           margin-right: 10%;
+        }
+
+        .column {
+            margin: 1%;
+        }
+    }
+
 </style>

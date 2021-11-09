@@ -94,7 +94,7 @@ export default {
 
     #about {
         background-color: rgb(255, 255, 255);
-        height: 100vh;
+        height: 100%;
         text-align: center;
     }
 
@@ -108,6 +108,26 @@ export default {
         flex: 50%;
         margin: 5rem 1rem 5rem 1rem;
         text-align: left;
+    }
+
+    @media only screen and (max-width: 1150px) {
+        h2 {
+            padding-top: 5%;
+        }
+
+        h4 {
+            padding-top: 1%;
+        }
+
+        .row {
+           display: inline-block;
+           margin-left: 10%;
+           margin-right: 10%;
+        }
+
+        .column {
+            margin: 8%;
+        }
     }
 
 </style>

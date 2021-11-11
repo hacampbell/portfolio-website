@@ -77,7 +77,7 @@
         flex: 50%;
     }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1000px) {
         .row {
            display: inline-block;
            margin-left: 10%;

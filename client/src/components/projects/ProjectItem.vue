@@ -27,7 +27,7 @@
 
     .project-item {
         background-color: #fff;
-        margin: 5rem 10rem;
+        margin: 5% 10%;
         max-width: 90%;
         color: #333;
         box-shadow: 0 0 2rem rgb(150 150 150 /120)
@@ -39,12 +39,12 @@
     }
 
     .project-item h3 {
-        margin-bottom: 1rem;
+        margin-bottom: 1%;
         font-size: 200%;
     }
 
     .project-item button {
-        padding: 3% 15%;
+        padding: 2%;
         margin: 3%;
         background-color: #c83cb9;
         color: #fff;

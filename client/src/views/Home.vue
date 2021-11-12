@@ -31,6 +31,10 @@
 </script>
 
 <style>
+    body {
+        overflow: hidden;
+    }
+
 
     #content {
         height: 100vh;
@@ -38,11 +42,11 @@
         scroll-behavior: smooth;
     }
 
-    body {
-        overflow: hidden;
+    #home {
+        min-height: 100vh;
     }
 
-    section {
-        height: 100vh;
+    #about {
+        min-height: 100vh;
     }
 </style>

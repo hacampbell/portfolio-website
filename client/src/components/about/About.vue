@@ -15,6 +15,9 @@
                 <p>
                     I’m currently looking to become part of a dedicated team of engineers responsible for building quality software, so if you’re hiring and like my sample work below, please feel free to contact me on LinkedIn. 
                 </p>
+                <p>
+                    You can see some examples of my work below.
+                </p>
             </div>
 
             <!-- Right Column -->

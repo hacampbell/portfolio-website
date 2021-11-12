@@ -77,11 +77,13 @@
         flex: 50%;
     }
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1150px) {
         h2 {
             padding-top: 5%;
         }
+    }
 
+    @media only screen and (max-width: 1000px) {
         .row {
            display: inline-block;
            margin-left: 10%;

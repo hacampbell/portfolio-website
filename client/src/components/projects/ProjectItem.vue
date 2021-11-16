@@ -1,11 +1,10 @@
 <template>
     <div class="project-item">
-        <!-- <img src="https://web.archive.org/web/20201226002509im_/https://d33wubrfki0l68.cloudfront.net/4343591e0826cbd40384e2841cf9851dec1d2017/9c7bb/images/gainon-mockup.jpg"> -->
         <img v-bind:src="img">
         <h3>{{title}}</h3>
         <p>{{description}}</p>
-        <button class="project-button">LIVE</button>
-        <button class="project-button">GITHUB</button>
+        <button class="project-button" @click="OpenLive">LIVE</button>
+        <button class="project-button" @click="OpenGitHub">GITHUB</button>
     </div>
 </template>
 
@@ -19,6 +18,15 @@
             img: String,
             live: String,
             github: String
+        },
+        methods: {
+            OpenLive: function () {
+                window.open(this.live, '_blank');
+            },
+
+            OpenGitHub: function () {
+                window.open(this.github, '_blank');
+            },
         }
     }
 </script>

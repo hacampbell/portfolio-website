@@ -94,13 +94,12 @@
     #home {
         background-color: rgb(17, 17, 17);
         height: 100%;
-        background-image: url(https://d33wubrfki0l68.cloudfront.net/images/f20315b799c67d762c3c2992f87aa674e6e30d19/hero-bg.jpg);
+        background-image: url('~@/assets/img/mountain2.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
         z-index: 1;
     }
-
     #scroll-down p {
         margin-top: 5rem;
         cursor: pointer;
@@ -115,7 +114,7 @@
         height: 100%;
         background: black;
         background-image: linear-gradient(to bottom, rgb(20, 20, 20), rgb(0, 0, 0));
-        opacity: 0.90;
+        opacity: 0.70;
         position: absolute;
         left: 0;
         top: 0;

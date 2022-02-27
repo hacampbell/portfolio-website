@@ -1,6 +1,5 @@
 <template>
     <div id="about">
-        <!-- <Nav /> -->
         <h2>ABOUT</h2>
         <h3>Personal Information</h3>
         <h4>Get to know more about me</h4>
@@ -37,15 +36,20 @@
                 </ul>
             </div>
         </div>
+
+        <div id="scroll-down">
+            <a href="#projects">View My Work</a>
+            <br />
+            <i class="fa fa-angle-down" style="font-size:20px"></i>
+        </div>
     </div>
 </template>
 
 <script>
-export default {
-  name: 'About',
-  components: {
-  }
-}
+    export default {
+        name: 'About',
+        components: {}
+    }
 </script>
 
 <style scoped>
@@ -95,12 +99,6 @@ export default {
         color: #fff;
     }
 
-    #about {
-        background-color: rgb(255, 255, 255);
-        height: 100%;
-        text-align: center;
-    }
-
     .row {
         display: flex;
         margin-left: 15rem;
@@ -111,6 +109,26 @@ export default {
         flex: 50%;
         margin: 5rem 1rem 5rem 1rem;
         text-align: left;
+    }
+
+    #about {
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        text-align: center;
+    }
+
+    #scroll-down{
+        margin: 5%;
+        color: black;
+    }
+
+    #scroll-down a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #scroll-down a:hover {
+        font-weight: bold;
     }
 
     @media only screen and (max-width: 1150px) {

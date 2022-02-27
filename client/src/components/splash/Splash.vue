@@ -15,7 +15,8 @@
         </svg>
 
         <div id="scroll-down">
-            <p @click="ScrollDown">Scroll Down</p>
+            <a href="#about">Scroll Down</a>
+            <br />
             <i class="fa fa-angle-down" style="font-size:20px"></i>
         </div>
     </div>
@@ -38,11 +39,6 @@
 
             OpenGitHub: function () {
                 window.open('https://github.com/hacampbell','_blank');
-            },
-
-            ScrollDown: function () {
-                let el = document.getElementById("about");
-                el.scrollIntoView();
             }
         }
 
@@ -100,12 +96,17 @@
         position: relative;
         z-index: 1;
     }
-    #scroll-down p {
-        margin-top: 5rem;
-        cursor: pointer;
+    
+    #scroll-down{
+        margin: 5%;
     }
 
-    #scroll-down p:hover {
+    #scroll-down a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #scroll-down a:hover {
         font-weight: bold;
     }
 
@@ -119,5 +120,31 @@
         left: 0;
         top: 0;
         z-index: -1;
+    }
+
+    @media screen and (max-width: 992px) {
+        h1 {
+            font-size: 300%;
+            margin-top: 2%;
+        }
+
+        h2 {
+            font-size: 200%;
+            margin-top: 5%;
+        }
+
+        h3 {
+            font-size: 175%;
+            margin-top: 50%;
+        }
+
+        #home {
+            overflow-x: hidden;
+        }
+
+        #scroll-down {
+            margin-top: 20%;
+        }
+
     }
 </style>

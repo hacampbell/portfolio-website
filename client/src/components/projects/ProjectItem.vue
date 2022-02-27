@@ -51,6 +51,10 @@
         font-size: 200%;
     }
 
+    .project-item p {
+        margin: 5%;
+    }
+
     .project-item button {
         padding: 2%;
         margin: 3%;

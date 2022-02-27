@@ -8,10 +8,10 @@
             <div class="column">
                 <ProjectItem
                     class="project-item"
-                    title="Example Project 1"
-                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quo ipsum tenetur, magni numquam cupiditate quisquam harum perspiciatis delectus facilis! Labore sit soluta hic libero accusamus ipsa laboriosam laborum in."
-                    live="https://google.com"
-                    github="https://github.com/"
+                    title="Drop Bear Table"
+                    description="Drop Bear Table is a web application built using MongoDB, Express.js, Vue 3 and Node. Its purpose is to make table reservations at restaurants. I built this project to serve as a demonstration of my ability to work across the full web tech stack, and deal with features such as user authentication and authorisation."
+                    live="https://github.com/hacampbell/table-reservations"
+                    github="https://github.com/hacampbell/table-reservations"
                     img="https://web.archive.org/web/20201226002509im_/https://d33wubrfki0l68.cloudfront.net/4343591e0826cbd40384e2841cf9851dec1d2017/9c7bb/images/gainon-mockup.jpg"
                 />
             </div>

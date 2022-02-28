@@ -21,7 +21,7 @@
 
             <!-- Right Column -->
             <div class="column">
-                <h4>Professional Skills</h4>
+                <h4>Skills</h4>
                 <ul id="skills">
                     <li>JavaScript</li>
                     <li>Node + Express</li>

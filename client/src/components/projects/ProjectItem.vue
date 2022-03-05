@@ -1,6 +1,6 @@
 <template>
     <div class="project-item">
-        <img v-bind:src="img">
+        <img v-bind:src="require(`@/assets/img/projects/${img}`)">
         <h3>{{title}}</h3>
         <p>{{description}}</p>
         <button class="project-button" @click="OpenLive">LIVE</button>

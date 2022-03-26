@@ -11,11 +11,18 @@
                     description="Drop Bear Table is a web application built using MongoDB, Express.js, Vue 3 and Node. Its purpose is to make table reservations at restaurants. I built this project to serve as a demonstration of my ability to work across the full web tech stack, and deal with features such as user authentication and authorisation."
                     live="https://github.com/hacampbell/table-reservations"
                     github="https://github.com/hacampbell/table-reservations"
-                    img="dbtimage.png"
+                    img="dbt.png"
                 />
             </div>
 
             <div class="column">
+                <ProjectItem
+                    title="Sudoku Solver"
+                    description="A python implementation of depth first search to solve a 9x9 sudoku puzzle. Each position of the sudoku grid is iterated over, with a number valid by the game’s rules being placed in each position. In the case that a dead end is reached, the program back tracks and tries a new value in the previous position."
+                    live="https://github.com/hacampbell/sudoku-solver-python"
+                    github="https://github.com/hacampbell/sudoku-solver-python"
+                    img="sudoku.png"
+                />
             </div>
         </div>
     </div>
